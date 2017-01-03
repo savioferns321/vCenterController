@@ -14,14 +14,13 @@ public class Launcher {
 
 
 	public static void main(String[] args) {
-		System.out.println("CMPE HW2 from Savio Fernandes");
 		VmCommandCenter commandCenter = new VmCommandCenter(args[0], args[1], args[2]);
 		boolean flag = true;
 
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		try {
 			while(flag){
-				System.out.print("SavioFernandes-480> ");
+				System.out.print("vCenter-commander> ");
 
 				String inputCmd = bufferedReader.readLine();
 				inputCmd = inputCmd.trim();
