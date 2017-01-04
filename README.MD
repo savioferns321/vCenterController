@@ -4,7 +4,7 @@ This project is a Java-based program to interact with a VMWare vCenter server.
 
 Description:
 
-This is a Java-based command line application based on VMWare's vijava Driver with three command line arguments passed to a running instance of Launcher.java
+This is a Java-based command line application based on VMWare's vijava Driver with three command line arguments passed to a running instance ofx Launcher.java
 IP login password
 where IP is the IP of CMPE vCenter server, login and password are the ones you used to connect to CMPE vCenter
 server. For example,
